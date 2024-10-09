@@ -30,7 +30,7 @@ export const LoginPage = () => {
   return (
     <>
       <div className="LoginPage flex flex-col gap-3">
-        <h1 className="text-3xl text-center font-semibold">Login Form</h1>
+        <h1 className="text-4xl font-bold text-blue-500 text-center">Login Form</h1>
         <p className="text-center">Login with your email and password</p>
         <form onSubmit={(e) => handleSubmit(e)} className="flex flex-col gap-3">
           <div className="inputBoxes">
